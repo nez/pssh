@@ -1,0 +1,6 @@
+apt-get install pssh
+ln parallel-ssh pssh
+ln parallel-scp pscp
+ln parallel-rsync prsync
+ln parallel-nuke pnuke
+ln parallel-slurp pslurp
