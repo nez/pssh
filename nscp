@@ -1,0 +1,3 @@
+#!/bin/bash
+pscp -h hosts $1 $2
+exit 0
