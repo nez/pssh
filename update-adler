@@ -1,0 +1,2 @@
+prsync -rvez -h pollers ~/git/adler ~/adler
+# estaria bien ponerle la flag -a?
