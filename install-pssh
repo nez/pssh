@@ -1,6 +1,13 @@
+#!/bin/bash
+
 apt-get install pssh
-ln parallel-ssh pssh
-ln parallel-scp pscp
-ln parallel-rsync prsync
-ln parallel-nuke pnuke
-ln parallel-slurp pslurp
+SSH=`which parallel-ssh`
+ln $SSH  /bin/pssh
+SCP=`which parallel-scp`
+ln $SCP /bin/pscp
+RSYNC=`which parallel-rsync`
+ln $RSYNC /bin/prsync
+NUKE=`which parallel-nuke`
+ln $NUKE /bin/pnuke
+SLURP=`which parallel-slurp`
+ln $NUKE /bin/pslurp
